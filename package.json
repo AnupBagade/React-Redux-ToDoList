@@ -2,12 +2,25 @@
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
-  "keywords": ["react", "starter"],
+  "keywords": [
+    "react",
+    "starter"
+  ],
   "main": "src/index.js",
   "dependencies": {
+    "@babel/plugin-transform-runtime": "7.18.2",
+    "@babel/runtime": "7.18.3",
+    "@redux-devtools/extension": "3.2.2",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-scripts": "4.0.0"
+    "react-redux": "8.0.2",
+    "react-scripts": "4.0.0",
+    "redux": "4.2.0",
+    "redux-devtools-extension": "2.13.9",
+    "redux-persist": "6.0.0",
+    "redux-thunk": "2.4.1",
+    "reselect": "4.1.5",
+    "styled-components": "5.3.5"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
@@ -19,5 +32,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
